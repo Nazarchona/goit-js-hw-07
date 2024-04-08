@@ -1,0 +1,39 @@
+.login-form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+input{
+    width: 360px;
+    height: 40px;
+    border-radius: 8px;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 86px;
+    height: 40px;
+    background-color: #4E75FF;
+    color: white;
+    box-shadow: none;
+    border: none;
+    margin-top: 16px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
